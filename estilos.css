@@ -38,7 +38,6 @@ section#relojes{
 section#nosotros{
 	width: 1024px;
 	height: 723px;
-	background-color: blue;
 }
 section#catalogo{
 	width: 1024px;
@@ -116,4 +115,86 @@ h2.titulos{
 	padding-right: 10px;
 	padding-top: 10px;
 }
+div#boxNosotros{
+	width: 846px;
+	height: 551px;
+	background-color: #585454;
+	margin-left: 87px;
+	margin-right: 87px;
+	margin-top: 52px;
+}
+div.cajitas{
+	width: 423px;
+	height: 276px;
+	background-color: #BBB4B4;
+	float: left;
+}
+div#txtArtesanales{
+	background-color: #B14E80;
+}
+div#imgArtesanales{
+	background-image: url("img/cover-1.jpg");
+}
+div#imgdiseno{
+	background-image: url("img/cover-2.jpg");
+}
+div#txtdiseno{
+	background-color: #30A2A6;
+}
+div.cajitas h3{
+	font-size: 20px;
+	color: white;
+	padding-left: 37px;
+	padding-right: 37px;
+	padding-top: 63px;
+	margin-bottom: 24px;
+	line-height: 30px;
+}
+div.cajitas p{
+	font-size: 14px;
+	color: #CCCCCC;
+	padding-left: 37px;
+	padding-right: 37px;
+	line-height: 24px;
+}
+div.boxCatalogo{
+	width: 324px;
+	height: 587px;
+	background-color: #461C31;
+	float: left;
+	margin-top: 66px;
+	margin-left: 8px;
+	margin-right: 8px;
+	text-align: center;
+}
+div.boxCatalogo h4{
+	font-size: 38px;
+	color: #B14E80;
+	margin-top: 60px;
+}
+div.boxCatalogo h5{
+	font-size: 21px;
+	color: #B14E80;
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
 
+div.boxCatalogo p{
+	font-size: 14px;
+	color: #B14E80;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+div.boxCatalogo a{
+	width: 112px;
+	height: 30px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border: solid #B14E80;
+	color: #B14E80;
+	border-radius: 22px;
+	margin-bottom: 20px;
+	text-decoration: none;
+	padding-top: 10px;
+}
