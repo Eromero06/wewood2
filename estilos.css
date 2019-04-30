@@ -10,6 +10,11 @@
 body{
 	font-family: 'Roboto', sans-serif;
 	font-weight: 100;
+	background-image: url("img/bosque.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
 }
 h1,h2,h3,h4,h5,h6{
 	font-weight: 400;
@@ -19,17 +24,61 @@ div#wrapper{
 	height: auto;
 	margin-left: auto;
 	margin-right: auto;
+	background-color: rgba(227,227,227,0.33)
 }
 nav{
 	width: 1024px;
 	height: 70px;
-	background-color: black;
+	background-color: rgba(0,0,0,0.64);
+	position: fixed;
+	top: 0;
+	z-index: 100;
 }
 header{
 	width: 1024px;
 	height: 600px;
-	background-image: url(img/header.jpg)
+	background-image: url(img/header.jpg);
+	position: relative;
 }
+div#overlay{
+	width: 522px;
+	height: 237px;
+	background-color: rgba(0,0,0,0.35);
+	position: absolute;
+	top: 250px;
+	left: 63px;
+}
+
+div#overlay h2{
+	color: white;
+	font-size: 33px;
+	margin-left: 20px;
+	margin-top: 40px;
+}
+
+div#overlay p{
+	color: white;
+	font-size: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 20px;
+	padding-bottom: 30px;
+}
+
+div#overlay a{
+	width: 111px;
+	height: 32px;
+	font-size: 16px;
+	margin-left: 348px;
+	color: white;
+	text-align: center;
+	padding-top: 5px;
+	text-decoration: none;
+	display: block;
+	border: solid 1px white;
+	border-radius: 20px;
+}
+
 section#relojes{
 	width: 1024px;
 	height: 457px;
@@ -42,12 +91,10 @@ section#nosotros{
 section#catalogo{
 	width: 1024px;
 	height: 791px;
-	background-color: #BE863F;
 }
 section#contacto{
 	width: 1024px;
 	height: 637px;
-	background-color: #AC502B;
 }
 footer{
 	width: 1024px;
@@ -63,6 +110,7 @@ nav ul{
 	float: right;
 	margin-top: 20px;
 	margin-right: 15px;
+	list-style: none;
 }
 nav ul li{
 	float: left;
@@ -198,3 +246,102 @@ div.boxCatalogo a{
 	text-decoration: none;
 	padding-top: 10px;
 }
+div.boxcontacto{
+	width: 510px;
+	height: 360px;
+	float: left;
+	margin-top: 60px;
+}
+table{
+	width: 330px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+.campo{
+	width: 300px;
+	height: 40px;
+	border: solid 1px #B14E80;
+	border-radius: 8px;
+	background-color: transparent;
+	font-weight: 100;
+	font-size: 16px;
+	color: #B14E80;
+	padding-left: 10px;
+	margin-bottom: 10px;
+}
+#altura{
+	height: 130px;
+	padding-top: 10px;
+	resize: none;
+}
+.enviar{
+	width: 87px;
+	height: 30px;
+	background-color: #B14E80;
+	color: white;
+	font-size: 16px;
+	border-radius: 8px;
+	float: right;
+	margin-right: 15px;
+	cursor: pointer;
+}
+.enviar:hover{
+	background-color: #461C31;
+	color: #B14E80;
+}
+
+::-webkit-input-placeholder{color: #B14E80;} /* Safari & Crome*/
+::-moz-input-placeholder{color: #B14E80;} /* Mozila Firefox*/
+::-ms-input-placeholder{color: #B14E80;} /* Microsoft IE o Edge*/
+::-o-input-placeholder{color: #B14E80;} /* Opera*/
+input-placeholder{color: #B14E80;} /*UNIVERSAL*/
+
+footer h2{
+	color: white;
+	font-weight: 100;
+	padding-top: 17px;
+	padding-left: 17px;
+	font-size: 18px;
+	font-family: Gotham, "Arial", sans-serif;
+	float: left;	
+}
+footer ul{
+	float: right;
+	margin-right: 20px;
+	margin-top: 20px;
+	list-style: none;
+}
+footer ul li{
+	float: right;
+	margin-left: 15px;
+}
+
+div#face{
+	width: 7px;
+	height: 13px;
+	background-image: url("svg/facebook.svg");
+	margin-left: 15px;
+}
+div#face:hover{
+	background-image: url("svg/facebook pink.svg");
+}
+div#instangram{
+	width: 13px;
+	height: 13px;
+	background-image: url("svg/Path 3.svg");
+	margin-left: 15px;
+}
+div#instangram:hover{
+	background-image: url("svg/instangram pink.svg");
+}
+div#twitter{
+	width: 13px;
+	height: 11px;
+	background-image: url("svg/twitter.svg");
+	margin-left: 15px;
+}
+div#twitter:hover{
+	background-image: url("svg/twitter pink.svg");
+}
+
