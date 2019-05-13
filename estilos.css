@@ -345,3 +345,13 @@ div#twitter:hover{
 	background-image: url("svg/twitter pink.svg");
 }
 
+span.upper{
+	font-size: 12px;
+	vertical-align: top;
+	line-height: 27px;
+}
+span.bold{
+	font-weight: 400px;
+	color: #B14E80;
+}
+
